@@ -2,7 +2,7 @@ import openai
 from openai import AuthenticationError  # Correct error import
 
 # Replace with your actual API key
-openai.api_key = "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"
+openai.api_key = "APi key"
 
 try:
     response = openai.models.list()
