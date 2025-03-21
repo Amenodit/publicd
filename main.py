@@ -1,6 +1,6 @@
 from openai import OpenAI
 
-client = OpenAI(api_key="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")  # Replace with your real API key
+client = OpenAI(api_key="Api key")  # Replace with your real API key
 
 def chat_with_gpt(prompt):
     response = client.chat.completions.create(
